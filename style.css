@@ -1,0 +1,296 @@
+/*Cabeçalho e Parte fixa do Site*/
+
+body{
+    background-color: steelblue;
+    font-family: Bahnschrift;
+    margin: 0;
+}
+
+#header{
+    height: 137px;
+    padding-top: 0px;
+}
+
+#logo{
+    background-color: white;
+    width: 1348px;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -674px;
+}
+
+#LogoImg{
+    width: 340px;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -170px;
+
+}
+
+#menu{
+    background-color: midnightblue;
+    height: 36px;
+}
+
+.listaMenu{
+    width: 400px;
+    position: relative;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: 0;
+}
+
+.listaMenu li{
+    display: inline-block;
+}
+
+.listaMenu li a{
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.listaMenu li a:link,
+.listaMenu li a:visited{
+    color:white;
+}
+
+.listaMenu li a:hover{
+    background-color: white;
+    color: midnightblue;
+}
+
+.menuAtual{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*Conteudo da pagina inicial*/
+
+#conteudo{
+    background-color: white;
+    width: 700px;
+    height: 1100px;
+    left: 50%;
+    margin-left: -350px;
+    min-height: 100%;
+    position: absolute;
+}
+
+#banner{
+    height: 261px;
+    background-size: contain;
+    background-image: url('Imagens/loja\ 3.jpg');
+}
+
+#info table{
+    border-spacing: 40px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#info td{
+    color: rgb(196, 12, 12);
+    font-size: 20px;
+    width: 400px;
+}
+
+#info img{
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    border-radius: 50%;
+    border: 3px solid rgb(196, 12, 12);
+}
+
+#info p{
+    margin: center;
+    text-align:center;
+
+}
+
+.tituloInfo{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/*Telefone*/
+
+#telefone{
+    position: fixed;
+    height: 120px;
+    width: 300px;
+    bottom: 30px;
+    right: 5px;
+    border: 3px;
+    background-color: whitesmoke;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+#numeroTel{
+    position: absolute;
+    left:120px;
+    height: 75px;
+    text-align: center;
+}
+
+#imgTel{
+    border-radius: 100px;
+}
+
+#numeroTel a{
+    text-decoration: none;
+    color: midnightblue;
+}
+
+#numeroTel h5{
+    color: midnightblue;
+}
+
+/*Conteudo da Pagina Sobre*/
+
+#imgSobre img{
+    width: 300px;
+    height: 147px;
+    margin-top: 5px;
+    border-radius: 50px;
+    border: 3px solid rgb(196, 12, 12);
+}
+
+#imgSobre td{
+    color: rgb(196, 12, 12);
+    font-size: 20px;
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#sobreText p{
+    margin: center;
+    text-align:center;
+}
+
+#sobreText{
+    font-size: 20px;
+    width: 500px;
+    height: 250px;
+    padding-left: 100px;
+    padding-top: 30px;
+    color: rgb(196, 12, 12);
+}
+
+#conteudoSobre h2{
+    text-shadow: 2px 2px 1px rgb(46, 27, 27);
+    padding-top: 3px;
+    text-align: center;
+    color: rgb(196, 12, 12);
+}
+
+#conteudoSobre{
+    background-color: white;
+    width: 700px;
+    height: 0px;
+    left: 50%;
+    margin-left: -350px;
+    min-height: 100%;
+    position: absolute;
+}
+
+/*Conteudo da Pagina Produtos*/
+
+#conteudoProduto{
+    background-color: white;
+    width: 700px;
+    height: 1800px;
+    left: 50%;
+    margin-left: -350px;
+    min-height: 100%;
+    position: absolute;
+}
+
+#conteudoProduto h2{
+    text-align: center;
+    text-shadow: 2px 2px 1px rgb(46, 27, 27);
+    color:  rgb(196, 12, 12);
+    font-weight: bold;
+}
+
+#produtoInfo td{
+    width: 300px;
+    height: 200px;
+    padding-left: 20px;
+}
+
+#produtoInfo img{
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 3px solid rgb(196, 12, 12);
+}
+
+#produtoText{
+    position: absolute;
+    left: 250px;
+    right: 20px;
+    height: 75px;
+    text-align: justify;
+    color: rgb(196, 12, 12);
+}
+
+#produtoText p{
+    font-size: 20px;
+}
+
+/*Conteudo da Página Contato*/
+
+#conteudoContato{
+    background-color: white;
+    width: 700px;
+    height: 488px;
+    left: 50%;
+    margin-left: -350px;
+    position: absolute;
+}
+
+#conteudoContato h2{
+    text-align: center;
+    text-shadow: 2px 2px 1px rgb(46, 27, 27);
+    color:  rgb(196, 12, 12);
+    font-weight: bold;
+}
+
+#contatoInfo table{
+    border-collapse: separate;
+    border-spacing: 50px;
+    position: absolute;
+}
+
+#contatoInfo td{
+    position: relative;
+    width: 700px;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 50px;
+    border: 3px solid  rgb(196, 12, 12);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 20px;
+}
+
+#contatoText{
+    position: absolute;
+    left: 100px;
+    right: 50px;
+    height: 75px;
+    text-align: justify;
+    color: rgb(196, 12, 12);
+
+}
+
+#contatoText a{
+    text-decoration: none;
+}
